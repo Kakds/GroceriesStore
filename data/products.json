@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Milk",
+    "product_id": 1,
+    "price": 2.5,
+    "quantity": 20,
+    "category": "Dairy",
+    "type": "Product"
+  },
+  {
+    "name": "Bread",
+    "product_id": 2,
+    "price": 1.2,
+    "quantity": 15,
+    "category": "Bakery",
+    "type": "Product"
+  },
+  {
+    "name": "Eggs",
+    "product_id": 3,
+    "price": 3.0,
+    "quantity": 30,
+    "category": "Dairy",
+    "type": "Product"
+  },
+  {
+    "name": "Rice",
+    "product_id": 4,
+    "price": 5.5,
+    "quantity": 25,
+    "category": "Grains",
+    "type": "Product"
+  },
+  {
+    "name": "Chicken Breast",
+    "product_id": 5,
+    "price": 8.9,
+    "quantity": 10,
+    "category": "Meat",
+    "type": "Product"
+  },
+  {
+    "name": "Apple Juice",
+    "product_id": 6,
+    "price": 2.8,
+    "quantity": 12,
+    "category": "Beverages",
+    "type": "Product"
+  },
+  {
+    "name": "Cheese",
+    "product_id": 7,
+    "price": 4.5,
+    "quantity": 8,
+    "category": "Dairy",
+    "type": "Product"
+  },
+  {
+    "name": "Bananas",
+    "product_id": 8,
+    "price": 1.1,
+    "quantity": 18,
+    "category": "Fruits",
+    "type": "Product"
+  },
+  {
+    "name": "Tomatoes",
+    "product_id": 9,
+    "price": 1.3,
+    "quantity": 22,
+    "category": "Vegetables",
+    "type": "Product"
+  },
+  {
+    "name": "Pasta",
+    "product_id": 10,
+    "price": 2.0,
+    "quantity": 14,
+    "category": "Grains",
+    "type": "Product"
+  }
+]
