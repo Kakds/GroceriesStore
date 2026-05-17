@@ -1,0 +1,10 @@
+Grocery Store Management System
+No external libraries needed
+
+Built in Python modules used:
+json
+csv
+os
+re
+datetime
+unittest
