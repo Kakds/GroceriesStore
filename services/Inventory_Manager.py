@@ -13,7 +13,7 @@ class InventoryManager:
 
     def find_product(self, product_id):
         for p in self.products:
-            if p.product_id == product_id:
+            if str(p.product_id) == str(product_id):
                 return p
         return None
 

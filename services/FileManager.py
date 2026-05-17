@@ -1,6 +1,6 @@
 import json
 from model.Product import Product
-from model.ExpiringProduct import ExpiringProducts
+from model.ExpiringProducts import ExpiringProducts
 
 class FileManager:
     def save_products(self, products, file_name):
@@ -14,27 +14,15 @@ class FileManager:
                 data = json.load(f)
             products = []
             for p in data:
-                if p.get("type") == "ExpiringProducts":
-                    products.append(
-                        ExpiringProducts(
-                            p["product_id"],
-                            p["name"],
-                            p["price"],
-                            p["quantity"],
-                            p["category"],
-                            p.get("expiration_date")
-                        )
+                products.append(
+                    Product(
+                        p["product_id"],
+                        p["name"],
+                        p["price"],
+                        p["quantity"],
+                        p["category"]
                     )
-                else:
-                    products.append(
-                        Product(
-                            p["product_id"],
-                            p["name"],
-                            p["price"],
-                            p["quantity"],
-                            p["category"]
-                        )
-                    )
+                )
             return products
         except FileNotFoundError:
             return []

@@ -9,14 +9,14 @@ class TestProduct(unittest.TestCase):
         self.assertEqual(p.price, 1.5)
         self.assertEqual(p.quantity, 10)
     def test_inheritance(self):
-        pp = PerishableProduct(
+        pp = ExpiringProducts(
             "2", "Milk", 2.0, 10, "Dairy", "2026-12-01"
         )
         self.assertEqual(pp.name, "Milk")
-        self.assertEqual(pp.expiry_date, "2026-12-01")
+        self.assertEqual(pp.expiration_date, "2026-12-01")
 
     def test_polymorphism_str(self):
-        pp = ExpiringProduct(
+        pp = ExpiringProducts(
             "3", "Yogurt", 3.0, 5, "Dairy", "2026-10-01"
         )
         result = str(pp)
