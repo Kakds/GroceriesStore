@@ -1,4 +1,4 @@
-class Inventory_Manager:
+class InventoryManager:
     def __init__(self):
         self.products = []
 
@@ -6,15 +6,14 @@ class Inventory_Manager:
         self.products.append(product)
 
     def remove_product(self, product_id):
-        new_list = []
-        for p in self.products:
-            if p.product_id != product_id:
-                new_list.append(p)
-        self.products = new_list
+        self.products = [
+            p for p in self.products
+            if p.product_id != product_id
+        ]
 
     def find_product(self, product_id):
         for p in self.products:
-            if p.id == product_id:
+            if p.product_id == product_id:
                 return p
         return None
 
@@ -27,9 +26,14 @@ class Inventory_Manager:
 
     def list_products(self):
         if not self.products:
-            return ("No products found")
-
+            return "No products found"
         result = ""
         for p in self.products:
-            result += p.name + "\n"
+            result += (
+                f"ID: {p.product_id}, "
+                f"Name: {p.name}, "
+                f"Price: {p.price}, "
+                f"Qty: {p.quantity}, "
+                f"Category: {p.category}\n"
+            )
         return result
