@@ -1,5 +1,5 @@
 import unittest
-from models.Product import Product
+from model.Product import Product
 from services.Inventory_Manager import InventoryManager
 
 class TestInventory(unittest.TestCase):
