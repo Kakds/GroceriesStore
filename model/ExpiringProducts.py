@@ -1,4 +1,4 @@
-from model.product import Product
+from model.Product import Product
 
 
 class ExpiringProducts(Product):
