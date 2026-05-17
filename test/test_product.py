@@ -1,6 +1,6 @@
 import unittest
-from models.product import Product
-from models.expiring_product import ExpiringProduct
+from model.Product import Product
+from model.ExpiringProducts import ExpiringProducts
 
 class TestProduct(unittest.TestCase):
     def test_product_encapsulation(self):
