@@ -1,5 +1,5 @@
 import unittest
-from utils.validators import validate_email
+from utils.Validators import validate_email
 
 class TestValidators(unittest.TestCase):
     def test_email_regex(self):
