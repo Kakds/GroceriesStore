@@ -1,79 +1,79 @@
 [
   {
-    "name": "Milk",
     "product_id": 1,
+    "name": "Milk",
     "price": 2.5,
     "quantity": 20,
     "category": "Dairy",
     "type": "Product"
   },
   {
-    "name": "Bread",
     "product_id": 2,
+    "name": "Bread",
     "price": 1.2,
     "quantity": 15,
     "category": "Bakery",
     "type": "Product"
   },
   {
-    "name": "Eggs",
     "product_id": 3,
+    "name": "Eggs",
     "price": 3.0,
     "quantity": 30,
     "category": "Dairy",
     "type": "Product"
   },
   {
-    "name": "Apple",
     "product_id": 4,
+    "name": "Apple",
     "price": 0.5,
     "quantity": 50,
     "category": "Fruits",
     "type": "Product"
   },
   {
-    "name": "Banana",
     "product_id": 5,
+    "name": "Banana",
     "price": 0.3,
     "quantity": 60,
     "category": "Fruits",
     "type": "Product"
   },
   {
-    "name": "Chicken",
     "product_id": 6,
+    "name": "Chicken",
     "price": 5.0,
     "quantity": 25,
     "category": "Meat",
     "type": "Product"
   },
   {
-    "name": "Rice",
     "product_id": 7,
+    "name": "Rice",
     "price": 4.5,
     "quantity": 40,
     "category": "Grains",
     "type": "Product"
   },
   {
-    "name": "Sugar",
     "product_id": 8,
+    "name": "Sugar",
     "price": 2.0,
     "quantity": 35,
     "category": "Baking",
     "type": "Product"
   },
   {
-    "name": "Butter",
     "product_id": 9,
+    "name": "Butter",
     "price": 3.8,
     "quantity": 18,
     "category": "Dairy",
     "type": "Product"
   },
   {
-    "name": "Cheese",
     "product_id": 10,
+    "name": "Cheese",
     "price": 4.2,
     "quantity": 22,
     "category": "Dairy",
