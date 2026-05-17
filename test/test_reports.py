@@ -1,5 +1,5 @@
 import unittest
-from services.report_generator import generate_random_report_id
+from services.ReportGenerator import generate_random_report_id
 
 class TestReports(unittest.TestCase):
     def test_generate_random_report_id_type(self):
