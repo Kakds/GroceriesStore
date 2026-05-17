@@ -1,6 +1,6 @@
 import unittest
 from models.Product import Product
-from services.Inventory_manager import InventoryManager
+from services.Inventory_Manager import InventoryManager
 
 class TestInventory(unittest.TestCase):
     def test_add_product(self):
