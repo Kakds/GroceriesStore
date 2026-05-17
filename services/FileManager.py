@@ -1,6 +1,6 @@
 import json
-from models.product import Product
-from models.expiring_product import ExpiringProducts
+from model.Product import Product
+from model.ExpiringProduct import ExpiringProducts
 
 class FileManager:
     def save_products(self, products, file_name):
