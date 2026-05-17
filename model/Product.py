@@ -1,5 +1,5 @@
 class Product:
-    def __init__(self, name, product_id, category, price, quantity):
+    def __init__(self, name, product_id, price, quantity, category):
         self.name = name
         self.product_id = product_id
         self.category = category
@@ -17,8 +17,8 @@ class Product:
 
     def to_dict(self):
         return {
-            "name": self.name,
             "product_id": self.product_id,
+            "name": self.name,
             "category": self.category,
             "price": self.price,
             "quantity": self.quantity,
@@ -26,8 +26,10 @@ class Product:
         }
 
     def __str__(self):
-        return (f"(Name of product: {self.name},"
-                f" Id: {self.product_id}, "
-                f"Category: {self.category}, "
-                f"Price: {self.price}, "
-                f"Quantity: {self.quantity})")
+        return (
+            f"Name: {self.name}, "
+            f"ID: {self.product_id}, "
+            f"Category: {self.category}, "
+            f"Price: {self.price}, "
+            f"Quantity: {self.quantity}"
+        )
