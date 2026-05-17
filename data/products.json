@@ -24,59 +24,59 @@
     "type": "Product"
   },
   {
-    "name": "Rice",
+    "name": "Apple",
     "product_id": 4,
-    "price": 5.5,
-    "quantity": 25,
-    "category": "Grains",
-    "type": "Product"
-  },
-  {
-    "name": "Chicken Breast",
-    "product_id": 5,
-    "price": 8.9,
-    "quantity": 10,
-    "category": "Meat",
-    "type": "Product"
-  },
-  {
-    "name": "Apple Juice",
-    "product_id": 6,
-    "price": 2.8,
-    "quantity": 12,
-    "category": "Beverages",
-    "type": "Product"
-  },
-  {
-    "name": "Cheese",
-    "product_id": 7,
-    "price": 4.5,
-    "quantity": 8,
-    "category": "Dairy",
-    "type": "Product"
-  },
-  {
-    "name": "Bananas",
-    "product_id": 8,
-    "price": 1.1,
-    "quantity": 18,
+    "price": 0.5,
+    "quantity": 50,
     "category": "Fruits",
     "type": "Product"
   },
   {
-    "name": "Tomatoes",
-    "product_id": 9,
-    "price": 1.3,
-    "quantity": 22,
-    "category": "Vegetables",
+    "name": "Banana",
+    "product_id": 5,
+    "price": 0.3,
+    "quantity": 60,
+    "category": "Fruits",
     "type": "Product"
   },
   {
-    "name": "Pasta",
-    "product_id": 10,
-    "price": 2.0,
-    "quantity": 14,
+    "name": "Chicken",
+    "product_id": 6,
+    "price": 5.0,
+    "quantity": 25,
+    "category": "Meat",
+    "type": "Product"
+  },
+  {
+    "name": "Rice",
+    "product_id": 7,
+    "price": 4.5,
+    "quantity": 40,
     "category": "Grains",
+    "type": "Product"
+  },
+  {
+    "name": "Sugar",
+    "product_id": 8,
+    "price": 2.0,
+    "quantity": 35,
+    "category": "Baking",
+    "type": "Product"
+  },
+  {
+    "name": "Butter",
+    "product_id": 9,
+    "price": 3.8,
+    "quantity": 18,
+    "category": "Dairy",
+    "type": "Product"
+  },
+  {
+    "name": "Cheese",
+    "product_id": 10,
+    "price": 4.2,
+    "quantity": 22,
+    "category": "Dairy",
     "type": "Product"
   }
 ]
