@@ -9,8 +9,8 @@ class Customer:
         self.cart = cart
 
     def __str__(self):
-        return {
-            f"Name: {self.name}",
-            f"Customer ID: {self.customer_id}",
-            f"Phone: {self.phone}",
-        }
+        return (
+            f"Name: {self.name}\n"
+            f"Customer ID: {self.customer_id}\n"
+            f"Phone: {self.phone}"
+        )
