@@ -1,6 +1,6 @@
 import unittest
-from models.cart import Cart
-from models.product import Product
+from model.Cart import Cart
+from model.Croduct import Product
 
 class TestCart(unittest.TestCase):
     def test_add_item_to_cart(self):
