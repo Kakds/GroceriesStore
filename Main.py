@@ -52,7 +52,7 @@ def main():
         elif choice == "5":
             print(report.generate_reports(inventory.products))
             print(report.low_stock(inventory.products))
-            orders_data = file_manager.load_orders("sales.json")
+            orders_data = file_manager.load_orders("data/sales.json")
             print(report.summary(orders_data))
 
         elif choice == "6":
