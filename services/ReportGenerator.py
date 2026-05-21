@@ -19,7 +19,9 @@ class ReportGenerator:
         return report
 
     def summary(self, orders):
-        total = sum(order.total_price for order in orders)
+        total = 0
+        for o in orders:
+            total += o["total_price"]
         return (
             "SALES SUMMARY:\n"
             f"Total Orders: {len(orders)}\n"
